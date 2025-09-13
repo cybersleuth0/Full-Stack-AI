@@ -13,7 +13,7 @@ menu = [
 # - 'condition' is optional; filters which items are included
 
 # Example: Get all items in menu that contain "Iced"
-iced_drinks=[item for item in menu if "Iced" in item ]
+iced_drinks = [item for item in menu if "Iced" in item]
 print(iced_drinks)
 
 
